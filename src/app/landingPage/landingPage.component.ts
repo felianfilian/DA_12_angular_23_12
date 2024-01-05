@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app-landingPage',
   standalone: true,
   imports: [CommonModule],
-  template: '',
-  styles: [],
+  template: '<h1>hello mario</h1>',
+  styles: ['h1 { color: red; }'],
 })
 export class landingPageComponent {}

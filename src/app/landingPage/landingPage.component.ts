@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   template: '<h1>hello mario</h1>',
-  styles: ['h1 { color: red; }'],
+  styleUrls: ['./landingPage.component.scss'],
 })
 export class landingPageComponent {}

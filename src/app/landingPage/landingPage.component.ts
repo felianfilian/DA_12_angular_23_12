@@ -5,7 +5,12 @@ import { Component } from '@angular/core';
   selector: 'app-landingPage',
   standalone: true,
   imports: [CommonModule],
-  template: '<h1>hello mario</h1>',
+  template: `
+  <section>
+    <h1>Sakura Ramen</h1>
+    <h2>Best Ramen in town</h2>
+  </section>
+  `,
   styleUrls: ['./landingPage.component.scss'],
 })
 export class landingPageComponent {}

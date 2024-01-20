@@ -4,9 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { landingPageComponent } from './landingPage/landingPage.component';
+import { NavbarComponent } from './landingPage/navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, NavbarComponent],
   imports: [BrowserModule, AppRoutingModule, landingPageComponent],
   providers: [],
   bootstrap: [AppComponent],

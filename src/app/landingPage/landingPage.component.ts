@@ -1,12 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @Component({
   selector: 'app-landingPage',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NavbarComponent],
   template: `
   <section>
+    <app-navbar></app-navbar>
     <h1>Sakura Ramen</h1>
     <h2>Best Ramen in town</h2>
   </section>

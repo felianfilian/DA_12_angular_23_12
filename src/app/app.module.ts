@@ -7,7 +7,7 @@ import { landingPageComponent } from './landingPage/landingPage.component';
 import { NavbarComponent } from './landingPage/navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent],
+  declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule, landingPageComponent],
   providers: [],
   bootstrap: [AppComponent],

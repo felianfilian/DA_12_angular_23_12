@@ -1,4 +1,9 @@
 nav {
     width: 100%;
     padding: 32px;
+
+    > img {
+        width: 64px;
+        height: 64px;
+    }
 }

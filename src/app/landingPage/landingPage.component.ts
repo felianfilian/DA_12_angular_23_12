@@ -8,7 +8,10 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [CommonModule, NavbarComponent],
   template: `
   <section>
-    <app-navbar></app-navbar>
+    <div>
+    <app-navbar></app-navbar>  
+    </div>
+    
     <h1>Sakura Ramen</h1>
     <h2>Best Ramen in town</h2>
   </section>

@@ -13,5 +13,10 @@ nav {
     > div {
         display: flex;
         width: 350px;
+        > a {
+            &:hover {
+                color: red;
+            }
+        }
     }
 }

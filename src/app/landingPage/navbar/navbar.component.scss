@@ -1,9 +1,17 @@
 nav {
+    display: flex;
+    justify-content: space-between;
+
     width: 100%;
     padding: 32px;
 
     > img {
         width: 64px;
         height: 64px;
+    }
+
+    > div {
+        display: flex;
+        width: 350px;
     }
 }

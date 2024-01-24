@@ -1,4 +1,5 @@
 nav {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
 
@@ -21,6 +22,10 @@ nav {
     }
 
     .phone-btn {
+        width: 200px;
+        background-color: red;
+        border: 2px solid #fff;
+
         > img{
             width: 32px;
             height: 32px;

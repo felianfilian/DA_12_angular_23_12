@@ -1,4 +1,7 @@
 nav {
+    position: fixed;
+    top: 16px;
+
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -13,7 +16,10 @@ nav {
 
     > div {
         display: flex;
-        width: 350px;
+        align-items: center;
+
+        width: 450px;
+        gap: 16px;
         > a {
             &:hover {
                 color: red;
@@ -22,9 +28,15 @@ nav {
     }
 
     .phone-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         width: 200px;
+        height: 36px;
         background-color: red;
         border: 2px solid #fff;
+        border-radius: 8px;
 
         > img{
             width: 32px;
